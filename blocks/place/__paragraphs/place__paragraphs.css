@@ -1,0 +1,28 @@
+.place__paragraphs {
+  grid-area: paragraphs;
+  margin: 0px auto;
+}
+
+@media screen and (min-width: 1280px) {
+  .place__paragraphs {
+    margin-left: 40px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+  .place__paragraphs {
+    margin-left: 32px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .place__paragraphs {
+    margin-left: 28px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .place__paragraphs {
+    margin: 0px auto;
+  }
+}

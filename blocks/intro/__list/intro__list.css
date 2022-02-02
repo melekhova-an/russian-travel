@@ -1,0 +1,5 @@
+.intro__list {
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+}

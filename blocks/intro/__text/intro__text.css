@@ -1,0 +1,43 @@
+.intro__text {
+  font-weight: normal;
+  max-width: 90vw;
+  font-size: 16px;
+  line-height: 163%;
+  margin-bottom: 34px;
+}
+
+@media screen and (min-width: 1280px) {
+  .intro__text {
+    max-width: 54vw;
+    font-size: 16px;
+    line-height: 163%;
+    margin-bottom: 33px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+  .intro__text {
+    max-width: 67vw;
+    font-size: 16px;
+    line-height: 163%;
+    margin-bottom: 33px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .intro__text {
+    max-width: 94vw;
+    font-size: 16px;
+    line-height: 163%;
+    margin-bottom: 33px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .intro__text {
+    max-width: 90vw;
+    font-size: 16px;
+    line-height: 163%;
+    margin-bottom: 34px;
+  }
+}
