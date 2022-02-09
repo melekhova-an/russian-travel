@@ -2,31 +2,6 @@
   font-weight: normal;
   text-decoration-line: underline;
   color: #ffff;
-  width: 288px;
   font-size: 18px;
   line-height: 22px;
-}
-
-@media screen and (min-width: 1280px) {
-  .place__link {
-    width: 456px;
-  }
-}
-
-@media screen and (min-width: 1024px) and (max-width: 1280px) {
-  .place__link {
-    width: 456px;
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  .place__link {
-    width: 352px;
-  }
-}
-
-@media screen and (min-width: 320px) and (max-width: 768px) {
-  .place__link {
-    width: 288px;
-  }
 }
