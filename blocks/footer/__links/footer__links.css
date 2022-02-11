@@ -1,9 +1,5 @@
-.footer__links {
-  display: block;
-  margin-bottom: 16px;
-  list-style-type: none;
-  padding: 0px;
-  padding-bottom: 16px;
+.footer__links:hover{
+  opacity: .3;
 }
 
 @media screen and (min-width: 1280px) {
@@ -15,7 +11,7 @@
   }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1280px) {
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
   .footer__links {
     display: flex;
     margin: 0px;
@@ -24,7 +20,7 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .footer__links {
     display: flex;
     margin: 0px;
@@ -33,11 +29,12 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .footer__links {
     display: block;
     margin-bottom: 16px;
     list-style-type: none;
     padding: 0px;
+    padding-bottom: 16px;
   }
 }

@@ -1,9 +1,7 @@
 .intro__text {
   font-weight: normal;
-  max-width: 90vw;
-  font-size: 16px;
-  line-height: 163%;
-  margin-bottom: 34px;
+  margin: 0px;
+  padding: 0px;
 }
 
 @media screen and (min-width: 1280px) {
@@ -15,7 +13,7 @@
   }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1280px) {
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
   .intro__text {
     max-width: 67vw;
     font-size: 16px;
@@ -24,7 +22,7 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .intro__text {
     max-width: 94vw;
     font-size: 16px;
@@ -33,7 +31,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .intro__text {
     max-width: 90vw;
     font-size: 16px;
