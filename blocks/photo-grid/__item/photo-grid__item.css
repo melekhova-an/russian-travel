@@ -4,20 +4,20 @@
 
 @media screen and (min-width: 1280px) {
   .photo-grid__item {
-    max-width: 22.19vw;
+    max-width: 284px;
   }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .photo-grid__item {
-    max-width: 29.3vw;
+    max-width: 29vw;
 
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .photo-grid__item {
-    max-width: 45.83vw;
+    max-width: 46vw;
 
   }
 }
