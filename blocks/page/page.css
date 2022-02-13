@@ -12,25 +12,25 @@
 
 
 @media screen and (min-width: 1280px) {
-  .lead {
-    width: 77vw;
+  .page{
+    min-width: 1280px;
   }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
-  .lead {
-    width: 91vw;
+  .page{
+    max-width: 1279px;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  .lead {
-    width: 100vw;
+@media screen and (max-width: 767px) and (max-width: 1023px) {
+  .page{
+    max-width: 1023px;
   }
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
-  .lead {
-    max-width: 100vw;
+  .page {
+    max-width: 767px;
   }
 }

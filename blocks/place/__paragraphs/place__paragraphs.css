@@ -1,6 +1,5 @@
 .place__paragraphs {
   grid-area: paragraphs;
-  margin: 0px auto;
 }
 
 @media screen and (min-width: 1280px) {
@@ -23,6 +22,6 @@
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .place__paragraphs {
-    margin: 0px auto;
+    margin-left: 16px;
   }
 }

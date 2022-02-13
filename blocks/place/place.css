@@ -1,6 +1,5 @@
 .place {
   display: grid;
-  margin: 0px auto 50px;
   grid-template-areas:
     "title"
     "website"
@@ -8,9 +7,6 @@
     "paragraphs"
 }
 
-.place:last-of-type {
-  margin: 0px auto;
-}
 
 @media screen and (min-width: 1280px) {
   .place {

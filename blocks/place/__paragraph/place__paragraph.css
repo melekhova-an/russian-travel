@@ -3,29 +3,30 @@
   margin: 0px;
   font-size: 16px;
   line-height: 163%;
+  margin-bottom: 25px;
 }
 
-.place__paragraph:nth-last-child(2) {
-  margin-bottom: 25px;
+.place__paragraph:last-of-type{
+  margin-bottom: 0px;
 }
 
 @media screen and (min-width: 1280px) {
   .place__paragraph {
-    max-width: 37.81vw;
+    max-width: 38vw;
     font-size: 18px;
   }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .place__paragraph {
-    max-width: 44.53vw;
+    max-width: 45vw;
     font-size: 18px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .place__paragraph {
-    max-width: 45.83vw;
+    max-width: 46vw;
     font-size: 16px;
   }
 }
