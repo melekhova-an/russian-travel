@@ -10,6 +10,7 @@
 
 @media screen and (min-width: 1280px) {
   .place {
+    max-width: 984px;
     margin: 0px auto 80px;
     grid-template-areas:
       "title website"
