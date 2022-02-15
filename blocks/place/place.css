@@ -1,10 +1,12 @@
 .place {
   display: grid;
+  margin: 0px auto 50px;
   grid-template-areas:
     "title"
     "website"
     "image"
     "paragraphs"
+    
 }
 
 
@@ -18,7 +20,7 @@
   }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
+@media screen and (min-width: 1024px) and (max-width: 1279.99px) {
   .place {
     margin: 0px auto 87px;
     grid-template-areas:
@@ -27,7 +29,7 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) and (max-width: 1023.99px) {
   .place {
     margin: 0px auto 73px;
     grid-template-areas:
@@ -36,7 +38,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767.99px) {
   .place {
     margin: 0px auto 50px;
     grid-template-areas:

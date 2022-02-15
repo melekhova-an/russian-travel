@@ -18,20 +18,20 @@
   }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
+@media screen and (min-width: 1024px) and (max-width: 1279.99px) {
   .page{
-    max-width: 1279px;
+    max-width: 1279.99px;
   }
 }
 
-@media screen and (max-width: 767px) and (max-width: 1023px) {
+@media screen and (max-width: 767px) and (max-width: 1023.99px) {
   .page{
-    max-width: 1023px;
+    max-width: 1023.99px;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767.99px) {
   .page {
-    max-width: 767px;
+    max-width: 767.99px;
   }
 }
