@@ -37,8 +37,8 @@
 @import url(./../blocks/intro/__points/intro__points.css);
 @import url(./../blocks/intro/__amount/intro__amount.css);
 @import url(./../blocks/intro/__point/intro__point.css);
-@import url(./../blocks/photo-grid/photo-grid.css);
-@import url(./../blocks/photo-grid/__item/photo-grid__item.css);
+@import url(./../blocks/gallery/__photo-grid/gallery__photo-grid.css);
+@import url(./../blocks/gallery/__item/gallery__item.css);
 @import url(./../blocks/place/__paragraphs/place__paragraphs.css);
 @import url(./../blocks/footer/__linkspace/footer__linkspace.css);
-
+@import url(./../blocks/header/__lang-link/_active/header__lang-link_active.css);

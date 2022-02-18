@@ -11,20 +11,13 @@
 
 }
 
-
-@media screen and (min-width: 1280px) {
-  .page{
-    min-width: 1280px;
-  }
-}
-
 @media screen and (min-width: 1024px) and (max-width: 1279.99px) {
   .page{
     max-width: 1279.99px;
   }
 }
 
-@media screen and (max-width: 767px) and (max-width: 1023.99px) {
+@media screen and (min-width: 767px) and (max-width: 1023.99px) {
   .page{
     max-width: 1023.99px;
   }

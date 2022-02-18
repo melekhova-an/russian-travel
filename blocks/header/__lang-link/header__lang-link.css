@@ -2,15 +2,15 @@
     font-weight: normal;
     text-align: right;
     color: #ffff;
+    text-decoration: none;
 }
 
 .header__lang-link:last-of-type {
-    text-decoration: none;
     margin-left: 16px;
 }
 
 .header__lang-link:hover{
-    opacity: .3;
+    opacity: .8;
 }
 
 @media screen and (min-width: 768px) {
