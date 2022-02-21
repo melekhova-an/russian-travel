@@ -10,31 +10,31 @@
 @media screen and (min-width: 1280px) {
   .cover {
     max-width: 1184px;
-    min-height: 11vh;
+    max-height: 740px;
     margin: 92px auto;
   }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279.99px) {
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
   .cover {
     width: 100%;
-    min-height: 9vh;
+    max-height: 640px;
     margin: 92px auto;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023.99px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .cover {
     width: 100%;
-    min-height: 7vh;
+    max-height: 480px;
     margin: 90px auto 88px;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767.99px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .cover {
     width: 100%;
-    min-height: 2vh;
+    min-height: 200px;
     margin: 66px auto 64px;
   }
 }

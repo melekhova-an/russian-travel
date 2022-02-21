@@ -1,6 +1,5 @@
 .place__paragraphs {
   grid-area: paragraphs;
-  margin-left: 16px;
 }
 
 @media screen and (min-width: 1280px) {
@@ -9,19 +8,19 @@
   }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279.99px) {
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
   .place__paragraphs {
     margin-left: 32px;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023.99px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .place__paragraphs {
     margin-left: 28px;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767.99px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .place__paragraphs {
     margin-left: 16px;
   }

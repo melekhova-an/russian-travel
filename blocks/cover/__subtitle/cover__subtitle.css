@@ -4,34 +4,26 @@
   margin: auto;
   color: #fff;
   text-decoration: none;
+  width: 360px;
+  font-size: 18px;
+  line-height: 22px;
+  margin-top: 32px;
 }
 
 @media screen and (min-width: 1280px) {
   .cover__subtitle {
-    width: 360px;
-    font-size: 18px;
-    line-height: 22px;
-    margin-top: 32px;
     margin-bottom: 245px;
   }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279.99px) {
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
   .cover__subtitle {
-    width: 360px;
-    font-size: 18px;
-    line-height: 22px;
-    margin-top: 32px;
     margin-bottom: 195px;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023.99px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .cover__subtitle {
-    width: 360px;
-    font-size: 18px;
-    line-height: 22px;
-    margin-top: 32px;
     margin-bottom: 115px;
   }
 }
